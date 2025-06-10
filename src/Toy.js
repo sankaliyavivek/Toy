@@ -20,8 +20,8 @@ function Toy() {
   
   return (
     <div>
-      
-     <BrowserRouter basename={process.env.PUBLIC_URL}>
+
+     <BrowserRouter basename="/Toy">
      <Routes>
       <Route path='/' element={<Webisite></Webisite>}></Route>
         <Route path='/catalog' element={<Catalog></Catalog>}></Route>
