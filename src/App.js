@@ -12,7 +12,7 @@ function App() {
   var [val,setval] = useState(1)
 
   return (
-    <div className='App'>
+    <div className='App' >
       <UserLogin.Provider value={{logname,setlogname,logout,setlogout,val,setval}}>
         <Toy></Toy>
       </UserLogin.Provider>
