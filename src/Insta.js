@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import {  instagram } from './Cart';
+import {  instagram } from '../public/Cart';
 
 
 function Insta() {

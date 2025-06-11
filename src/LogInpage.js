@@ -18,7 +18,7 @@ function LogInpage() {
 
         e.preventDefault();
 
-        fetch('https://sankaliyavivek.github.io/Toy/data.json')
+        fetch('https://sankaliyavivek.github.io/Toy/userdata')
             .then((res) => { return res.json() })
             .then((data) => {
 

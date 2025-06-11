@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import {  instagram } from './Cart'
+import {  instagram } from '../public/Cart'
 
 function RelatedProducts() {
 
