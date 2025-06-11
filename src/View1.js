@@ -22,7 +22,7 @@ function View1() {
   var nil = { id: jay1.id, url: jay1.url, name: jay1.name, price: jay1.price * val }
 
   useEffect(() => {
-    fetch('http://localhost:500/alltoys/' + eid)
+    fetch('https://sankaliyavivek.github.io/Toy/alltoys/' + eid)
       .then((res) => { return res.json() })
       .then((vivek) => {
         setjay(vivek)
@@ -36,7 +36,7 @@ function View1() {
 
     fetch("")
 
-    fetch("http://localhost:788/cart")
+    fetch("https://sankaliyavivek.github.io/Toy/cart")
       .then((res) => { return res.json() })
       .then((op) => {
         console.log(op)
@@ -68,7 +68,7 @@ function View1() {
         }
 
         else {
-          fetch("http://localhost:788/cart", {
+          fetch("https://sankaliyavivek.github.io/Toy/cart", {
             method: "post",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(nil)

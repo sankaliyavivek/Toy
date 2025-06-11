@@ -9,7 +9,7 @@ import Top from './Top'
 function Stuffed() {
   const [woo, setwood] = useState('')
   useEffect(() => {
-    fetch("http://localhost:500/Stuffed")
+    fetch("https://sankaliyavivek.github.io/Toy/Stuffed")
       .then((res) => { return res.json() })
       .then((data) => {
         setwood(data)

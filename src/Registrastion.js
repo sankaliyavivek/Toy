@@ -26,7 +26,7 @@ function Registrastion() {
     }
 
     else {
-      fetch("http://localhost:403/userdata",
+      fetch("https://sankaliyavivek.github.io/Toy/userdata",
         {
           method: "post",
           headers: { "content-type": "application/json" },

@@ -6,7 +6,7 @@ function CardSections2() {
     const [data1, setData] = useState('');
 
     useEffect(() => {
-        fetch('http://localhost:500/wdata')
+        fetch('https://sankaliyavivek.github.io/Toy/wdata')
             .then((res) => { return res.json() })
             .then((data) => {
                 setData(data)

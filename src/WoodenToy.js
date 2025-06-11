@@ -12,7 +12,7 @@ function WoodenToy() {
   const [wood, setwood] = useState('')
 //  const {id1} =  useParams()
   useEffect(() => {
-    fetch("http://localhost:500/Wooden")
+    fetch("https://sankaliyavivek.github.io/Toy/Wooden")
       .then((res) => { return res.json() })
       .then((data) => {
         setwood(data)

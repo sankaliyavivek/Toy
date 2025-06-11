@@ -12,7 +12,7 @@ function Catalog() {
   const [toy, settoys] = useState('');
   
   useEffect(() => {
-    fetch('http://localhost:500/alltoys')
+    fetch('https://sankaliyavivek.github.io/Toy/alltoys')
       .then((res) => { return res.json() })
       .then((data) => {
         settoys(data)

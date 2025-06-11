@@ -13,7 +13,7 @@ function StuffedToyView() {
 
 
   useEffect(() => {
-    fetch('http://localhost:500/Stuffed/' + sid)
+    fetch('https://sankaliyavivek.github.io/Toy/Stuffed/' + sid)
       .then((res) => { return res.json() })
       .then((stuf) => {
         setstuffed(stuf)

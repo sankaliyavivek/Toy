@@ -12,7 +12,8 @@ function MyVerticallyCenteredModal(props) {
     var [filldata, setfilldata] = useState("")
 
     useEffect(() => {
-        fetch("http://localhost:788/cart")
+        fetch("https://sankaliyavivek.github.io/Toy/cart")
+        
             .then((res) => {
                 return res.json()
             })
@@ -23,7 +24,7 @@ function MyVerticallyCenteredModal(props) {
     }, [])
     const remove = (rem) => {
 
-        fetch('http://localhost:788/cart/' + rem, {
+        fetch('https://sankaliyavivek.github.io/Toy/cart/' + rem, {
             method: "delete"
         })
 
@@ -107,7 +108,7 @@ function Jay() {
     var [filldata, setfilldata] = useState("")
 
     useEffect(() => {
-        fetch("http://localhost:788/cart")
+        fetch("https://sankaliyavivek.github.io/Toy/cart")
             .then((res) => {
                 return res.json()
             })

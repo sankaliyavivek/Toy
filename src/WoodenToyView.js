@@ -12,7 +12,7 @@ function WoodenToyView() {
   const [jay, setjay] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:500/Wooden/' + vid)
+    fetch('https://sankaliyavivek.github.io/Toy/Wooden/' + vid)
       .then((res) => { return res.json() })
       .then((vivek) => {
         setjay(vivek)

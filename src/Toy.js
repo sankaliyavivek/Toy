@@ -13,6 +13,7 @@ import OpenYou from './OpenYou'
 import WoodenToyView from './WoodenToyView'
 import StuffedToyView from './StuffedToyView'
 import LoginForm from './LogInpage'
+import { HashRouter } from 'react-router-dom';
 
 
 function Toy() {
